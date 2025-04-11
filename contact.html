@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Assignment 1</title>
+    <style></style>
+    <link rel="stylesheet" href="styles/hw2.css" />
+  </head>
+  <meta
+    name="description"
+    content="This is a page all about me (Emmett Martin). This page will describe what led me to Babson College, what I am interested in and what activities I take part in at Babson."
+  />
+  <meta name="keywords" content="Babson, exercise, relax, movies" />
+  <meta name="author" content="Emmett Martin" />
+  <body>
+    <h1 id="titletitle">About Emmett Martin <svg width="50" height="50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Circle Background -->
+        <circle cx="100" cy="100" r="90" stroke="green" stroke-width="5" fill="white" />
+        
+        <!-- Cursive E and M Centered -->
+        <text x="50%" y="50%" font-family="cursive" font-size="50" fill="green" text-anchor="middle" dominant-baseline="middle">EM</text>
+    </svg></h1> <!-- svg code is AI generated that I altered -->
+    <ul id="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="flex-container">
+    <div class="text">
+    <p>Hello! This is my contact page. Please feel free to reach out to me using the form below. I would be more than happy to discuss my projects, answer questions, or explore opportunities!</p>
+</div>
+<div class="form">
+    <h1>Contact Me!</h1>
+    <form method="POST" action="https://oim.108122.xyz/form2">
+        <fieldset> <!-- fieldset area code is AI generated that I altered -->
+            <legend>Contact Information</legend>
+            <div>
+                <label for="first-name">First Name: 
+                    <input type="text" id="first-name" placeholder="First Name" />
+                </label>
+            </div>
+            <div>
+                <label for="last-name">Last Name: 
+                    <input type="text" id="last-name" name="Last Name" placeholder="Last Name" />
+                </label>
+            </div>
+            <div>
+                <label for="email">Email: 
+                    <input type="text" id="email" name="Email" placeholder="Email address" />
+                </label>
+            </div>
+            <div>
+                <label for="country">Country:</label>
+                <input list="countries" name="country" id="country" />
+                <datalist id="countries">
+                    <option value="United States">
+                    <option value="Canada">
+                    <option value="Mexico">
+                    <option value="China">
+                </datalist>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="comments" rows="2" cols="25" placeholder="Enter your message here..."></textarea>
+            </div>
+        </fieldset>
+        <div class="button-group">
+            <button type="submit">
+                SUBMIT <img src="images/mailbox.PNG" height="30" alt="submit button" />
+            </button>
+            <button type="reset">
+                RESET <img src="images/reset.PNG" height="30" alt="reset button" />
+            </button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
